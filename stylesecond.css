@@ -29,12 +29,12 @@ p{
 
 button{
     font-size: xx-large;
-    padding: 30px;
+    padding: 20px;
 }
 
 #yesBtn{
     transform: translate(-100%,0);
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 500;
 	border: none;
 	cursor: pointer;
@@ -42,12 +42,11 @@ button{
 	transition: .3s ease all;
 	border-radius: 5px;
 	position: relative;
-	/* overflow: hidden; */
 }
 
 #noBtn{
     position: absolute;
-    font-size: 30px;
+    font-size: 20px;
 	font-weight: 500;
 	border: none;
 	cursor: pointer;
@@ -56,21 +55,15 @@ button{
 	border-radius: 5px;
 	overflow: hidden;
 }
-.image{
-    width: 150px;
-    height: 400px;
-    margin-top: -100px;
-    margin-left: -1200px;
-}
 
 a{
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 600;
     z-index: 100;
-    color: blanchedalmond;
+    color: black;
     margin-bottom: 30px;
-    /* text-decoration: none; */
+    text-decoration: none;
     cursor: pointer;
     box-shadow:inset;
 }

@@ -1,7 +1,8 @@
 const yesBtn = document.querySelector('#yesBtn');
 
 yesBtn.addEventListener('click',function () {
-    alert('Sabia decisión Guguita, dirigite al enlace de abajo, gracias')
+    alert('Sabia decisión Guguita')
+    alert('Dirigite al enlace de abajo, gracias')
 });
 
 const noBtn = document.querySelector('#noBtn');
